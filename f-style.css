@@ -1,14 +1,26 @@
+/* *********
+css for footballer
+************ */
+
 body{
     font-family: 'Poppins' sans-serif;
-    background: #000000;
+    background: #FFFFFF;
+    
 }
-.main{
+
+/* ******
+web style**** */
+.web{
     position: relative;
     left: 100px;
+    top: 0px;
     width: 1440px;
-    height: 3750px;
-    background: #FFFFFF;
+    
 }
+
+/* ******
+header file style
+************ */
 .header{
     display: flex;
     width: 1440px;
@@ -18,10 +30,12 @@ body{
     top: 0px;
     background: #2D25A0;
 }
+
+
 .p-copa{
     position: absolute;
      left: 156px;
-    bottom: 150px; 
+     top: 207px;
     width: 487px;
     height: 320px;
     font-style: normal;
@@ -36,8 +50,8 @@ body{
     width: 168px;
     height: 44px;
     position: absolute;
-    top: 464px;
     left: 156px;
+    top: 400px;
     padding: 10px 24px;
     background: #E02C6D;
     text-align: center;
@@ -56,6 +70,10 @@ body{
     left: 766px;
     top: 125px;
 }
+
+/* *********
+ main part style 
+ ********/
 .players{
     position: absolute;
     top: 680px;
@@ -79,6 +97,10 @@ body{
     height: 256px;
     position: static;
 }
+
+/* ********
+footer style
+********* */
 .football img{
     position: absolute;
     top: 3200px;
@@ -102,4 +124,11 @@ i{
     margin-right: 10px;
     padding: 5px;
     border-radius: 50%;  
+}
+
+i:hover {
+    transform: rotate(180deg);
+    width: 20px;
+    height: 20px;
+    transition-duration: 2s;
 }
